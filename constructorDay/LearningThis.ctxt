@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=LearningThis
+comment1.params=
+comment1.target=LearningThis()
+comment2.params=id
+comment2.target=LearningThis(int)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4
