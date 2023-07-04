@@ -25,11 +25,11 @@ class Main {
 
     public static void main(String[] args) {
         Employee obj1 = new Manager();
-        System.out.println("Manger's salary");
+        System.out.print("Manger's salary");
         printSalary(obj1);
 
         Employee obj2 = new Employee();
-        System.out.println("Clerks salary");
+        System.out.print("Clerks salary");
         printSalary(obj2);
 
     }
