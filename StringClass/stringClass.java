@@ -22,5 +22,18 @@ class StringClass {
         Boolean isEqualsByIgnoring = test.equalsIgnoreCase(test);
         System.out.println(isEqualsByIgnoring);
 
+        String test2 = "abc";
+        String test3 = "def";
+        int testOutput = test2.compareTo(test3);
+        System.out.println(testOutput);
+
+        int testingCompareToIgnore = test2.compareToIgnoreCase(test3);
+        System.out.println(testingCompareToIgnore);
+
+        System.out.println(test.toLowerCase());
+        System.out.println(test.toUpperCase());
+        System.out.println(test.trim());
+        System.out.println(test.replace("H", "c"));
+
     }
 }
