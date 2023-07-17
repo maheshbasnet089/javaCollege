@@ -34,6 +34,7 @@ class StringClass {
         System.out.println(test.toUpperCase());
         System.out.println(test.trim());
         System.out.println(test.replace("H", "c"));
+        System.out.println("".isEmpty());
 
     }
 }
