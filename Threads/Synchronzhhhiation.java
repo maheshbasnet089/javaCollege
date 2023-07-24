@@ -33,7 +33,7 @@ class MyThread2 extends Thread{
     }
 }
 
-public class Synchronziation {
+ class Synchronzhhhiation {
     public static void main(String[] args){
         Table obj = new Table();
         MyThread1 t1 = new MyThread1(obj);
