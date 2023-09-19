@@ -69,7 +69,7 @@ public class Background extends javax.swing.JFrame {
             String r = Integer.toString(res);
             jLabel1.setText(r);
         } else {
-            jLabel1.setText("Error: Division by zero");
+            jLabel1.setText("Cannot divide  By  Zero");
         }
     }
 
