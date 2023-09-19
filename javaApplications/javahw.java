@@ -36,6 +36,31 @@ public class Background extends javax.swing.JFrame {
         jButton4.addActionListener(evt -> jButton4ActionPerformed(evt));
     }
 
+   
+
+    
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
+        int a = Integer.parseInt(textField1.getText());
+        int b = Integer.parseInt(textField2.getText());
+        int res = a - b;
+        String r = Integer.toString(res);
+        jLabel1.setText(r);
+    }
+    
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {
+        int a = Integer.parseInt(textField1.getText());
+        int b = Integer.parseInt(textField2.getText());
+        int res = a * b;
+        String r = Integer.toString(res);
+        jLabel1.setText(r);
+    }
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+        int a = Integer.parseInt(textField1.getText());
+        int b = Integer.parseInt(textField2.getText());
+        int res = a + b;
+        String r = Integer.toString(res);
+        jLabel1.setText(r);
+    }
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {
         int a = Integer.parseInt(textField1.getText());
         int b = Integer.parseInt(textField2.getText());
@@ -46,30 +71,6 @@ public class Background extends javax.swing.JFrame {
         } else {
             jLabel1.setText("Error: Division by zero");
         }
-    }
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
-        int a = Integer.parseInt(textField1.getText());
-        int b = Integer.parseInt(textField2.getText());
-        int res = a + b;
-        String r = Integer.toString(res);
-        jLabel1.setText(r);
-    }
-
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
-        int a = Integer.parseInt(textField1.getText());
-        int b = Integer.parseInt(textField2.getText());
-        int res = a - b;
-        String r = Integer.toString(res);
-        jLabel1.setText(r);
-    }
-
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {
-        int a = Integer.parseInt(textField1.getText());
-        int b = Integer.parseInt(textField2.getText());
-        int res = a * b;
-        String r = Integer.toString(res);
-        jLabel1.setText(r);
     }
 
     public static void main(String args[]) {
